@@ -1,0 +1,80 @@
+h1 {
+    color: red;
+    font-size: 80px;
+}
+
+.tagline{
+    color: blue;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#header{
+    background: rgba(51, 255, 0, 0.5);
+    text-align: center;
+}
+
+#navigator {
+    text-align: center;
+}
+
+.menu {
+    background-color:aqua;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#platos-destacados {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.destacados {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.especial{
+    border: 12px solid rgba(255, 255, 0, 0.356);
+}
+
+.destacados:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+nav ul li a {
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+#reform-reservas{
+    display: flex;
+    flex-direction :column;
+    text-align: center;
+}
+
+input:focus{
+    border: 3px solid rgb(245, 3, 124);
+}
+
+#form-reservas>input{
+    height: 35px;
+    width: 100%;
+}
